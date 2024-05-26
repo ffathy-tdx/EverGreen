@@ -24,28 +24,30 @@ The project directory is organized as follows:
 Evergreen/
 │
 ├── assets/
-│   ├── apple_leaves.jpg
-│   ├── orange_leaves.jpg
-│   ├── cherry_leaves.jpg
-│   ├── lemon_leaves.jpg
-│   ├── tree_bg.jpg
-|   └── dl_model/
-|       ├── tflite_model.tflite
-|       └── labels.txt
+│ ├── apple_leaves.jpg
+│ ├── orange_leaves.jpg
+│ ├── cherry_leaves.jpg
+│ ├── lemon_leaves.jpg
+│ ├── tree_bg.jpg
+│ └── dl_model/
+│ ├── tflite_model.tflite
+│ └── labels.txt
 │
 ├── lib/
-│   ├── components/
-│   │   └── button.dart
-|
-│   │   ├── home_screen.dart
-│   │   ├── login_screen.dart
-│   │   ├── scanned_images_screen.dart
-│   │   ├── second_screen.dart
-│   │   ├── selected_images_screen.dart
-│   │   ├── signup_screen.dart
-│   │   └── start_screen.dart
-│   ├── model.dart
-│   └── main.dart
+│ ├── components/
+│ │ └── button.dart
+│ │
+│ ├── screens/
+│ │ ├── home_screen.dart
+│ │ ├── login_screen.dart
+│ │ ├── scanned_images_screen.dart
+│ │ ├── second_screen.dart
+│ │ ├── selected_images_screen.dart
+│ │ ├── signup_screen.dart
+│ │ └── start_screen.dart
+│ │
+│ ├── model.dart
+│ └── main.dart
 │
 └── pubspec.yaml
 
