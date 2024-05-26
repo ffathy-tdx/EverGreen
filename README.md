@@ -20,6 +20,7 @@ Evergreen is a valuable tool for both hobbyist gardeners and professional farmer
 ## File Structure
 
 The project directory is organized as follows:
+## Project Structure
 
 Evergreen/
 │
@@ -50,6 +51,8 @@ Evergreen/
 │ └── main.dart
 │
 └── pubspec.yaml
+
+
 
 
 ## How to Use
