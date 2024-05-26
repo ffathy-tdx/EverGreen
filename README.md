@@ -20,8 +20,8 @@ Evergreen is a valuable tool for both hobbyist gardeners and professional farmer
 ## File Structure
 
 The project directory is organized as follows:
-## Project Structure
-
+### Project Directory Layout
+```
 Evergreen/
 │
 ├── assets/
@@ -31,12 +31,12 @@ Evergreen/
 │ ├── lemon_leaves.jpg
 │ ├── tree_bg.jpg
 │ └── dl_model/
-│ ├── tflite_model.tflite
-│ └── labels.txt
+│     ├── tflite_model.tflite
+│     └── labels.txt
 │
 ├── lib/
 │ ├── components/
-│ │ └── button.dart
+│ │   └── button.dart
 │ │
 │ ├── screens/
 │ │ ├── home_screen.dart
@@ -51,10 +51,7 @@ Evergreen/
 │ └── main.dart
 │
 └── pubspec.yaml
-
-
-
-
+```
 ## How to Use
 
 1. **Installation:** Clone the repository to your local machine.
